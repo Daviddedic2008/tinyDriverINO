@@ -6,4 +6,5 @@ Not working fully yet:
 - diagonal lines are implemented on an unreleased version, but are buggy due to register conflicts between the ino compiled code and the raw asm subroutine
 - 3d wireframe rendering is in the works but requires a trigonometric lookup table, something that must be pre-loaded onto arduino
 
+if anyone wants to experiment, the screen microcontroller seems to allow direct reads/writes to its huge mem pool of around 262kb. Could this be used to supplement the Arduino's measly 2kb?
 PICTURES COMING SOON
