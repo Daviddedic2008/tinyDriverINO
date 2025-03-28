@@ -1,5 +1,10 @@
-wohoo pushed from microchip studio. 
+Refactored drivers for 2.8in Elegoo TFT display. Written for the Arduino Uno R3.
 
-figured out how to read from LCD ram!
+Support:
+- raw read/writes to LCD RAM
+- filling pixels
+- drawing rectangles
+- filling screen
+- loading arrays of colors into desired locations
 
-these drivers support reading/writing to LCD ram, drawing in pixels, clearing the screen, drawing rectangles, and manually setting bounds/drawing whatver you want. It also had horizontal and vertical line subroutines, but they were no more efficient than the rectangle subroutine so i removed them. Diagonal lines are present in an unstable build, and I am working on a 3d wireframe renderer using diagonal lines right now.
+Runs anywhere from 0-50% faster than stock drivers that arrive with the LCD unit
