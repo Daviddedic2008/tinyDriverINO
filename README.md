@@ -3,7 +3,7 @@ Lightweight, small, simple drivers for the Elegoo TFT 2.8 inch LCD Shield for th
 
 ## Metrics
   Raw data transmit rate between screen and arduino is improved over stock drivers.
-  The screen clears ~15-30% faster, indicative of a reduction in overhead
+  The screen clears ~15-30% faster, indicative of a reduction in overhead.
   Written in mostly AVR asm, with a bit of AVRC mixed in
 
 ## Functionality
